@@ -100,6 +100,30 @@ h3 {
   font-size: 24px;
 }
 
+h4{
+  font-family: "ManropeLight", sans-serif;
+  color: #71e5ff;
+}
+
+h5{
+  font-family: "ManropeBold", sans-serif;
+  color: #000;
+}
+
+h6{
+  font-family: "ManropeBold", sans-serif;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h7{
+  font-family: "ManropeLight", sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+
 p {
   font-size: 16px;
   color: #fff;
@@ -145,6 +169,7 @@ p {
   justify-content: space-between;
   align-items: center;
   background: #031b34;
+  z-index: 1;
 }
 
 .header .header__logo .logo__link {
@@ -184,7 +209,6 @@ p {
 .header .header__right .menu__close {
   width: 38px;
   height: 38px;
-  cursor: pointer;
 }
 
 .header .header__right .menu__close.hidden {
@@ -342,7 +366,7 @@ p {
 .what_is_chatgpt_section .what_is_chatgpt_section__middle {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: start;
 }
 
 .what_is_chatgpt_section .what_is_chatgpt_section__middle .middle__header {
@@ -367,7 +391,7 @@ p {
 .what_is_chatgpt_section .what_is_chatgpt_section__bottom {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: start;
   column-gap: 2rem;
 }
 
@@ -397,7 +421,7 @@ p {
 .future_here .future_here__left {
   display: flex;
   flex-direction: column;
-  align-items: flex-flex-start;
+  align-items: flex-start;
   row-gap: 2rem;
   flex: 2;
 }
@@ -437,6 +461,256 @@ p {
   color: #81afdd;
 }
 
+/* Будущее наступило новое */
+
+.future_here_new
+{
+  display: flex;
+  column-gap: 6rem;
+  margin: 0 0 10rem;
+}
+
+.future_here_new .left_container_future
+{
+  position: relative;
+  width: 50%;    /* Установите нужную ширину контейнера */
+  height: 100%;
+  padding: 0 2rem 0;
+}
+
+.future_here_new .right_container_future
+{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 15rem 1rem 2rem;
+}
+
+.future_here_new .right_container_future .time-dostup
+{
+  margin-bottom: 10px;
+}
+
+.future_here_new .right_container_future .right_future_here
+{
+  margin-bottom: 23px;
+}
+
+.future_here_new .right_container_future .new_future_description
+{
+  color: #81afdd;
+  margin-bottom: 31px;
+}
+
+.future_here_new .right_container_future .time_dostup_orange
+{
+  color: #ff8a71;
+}
+
+/* early access */
+
+.early_access {
+  display: flex;
+  margin-bottom: 10rem;
+}
+
+.early_access .fon_gradient {
+  width: 100%;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  display: flex;
+  border-radius: 10px;
+}
+
+.early_access .fon_gradient .left_gradient {
+  width: 60%;
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение элементов */
+  padding: 20px;
+}
+
+.early_access .fon_gradient .left_gradient .head_text {
+  color: #0e0e0e;
+  font-size: 12px;
+  padding-top: 1.5rem;
+}
+
+.early_access .fon_gradient .left_gradient .osn_text {
+  font-size: 24px;
+}
+
+.early_access .fon_gradient .right_gradient {
+  width: 40%;
+  display: flex;
+  padding: 4rem 2rem 4rem 15rem;
+}
+
+.early_access .fon_gradient .right_gradient .start_btn {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 4rem; 
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.Blog{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 8rem;
+}
+
+.Blog .Head_Text{
+  font-size: 62px;
+  width: 100%;
+  padding: 0 30rem 7rem 0;
+}
+
+.Blog .Blog_Bottom{
+  display: flex;
+  gap: 3rem;
+}
+
+.Blog .Blog_Bottom .Blog_Left{
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  min-width: 375px;
+}
+
+.Blog .Blog_Bottom .Blog_Left .text_left_back .text_left3 .dataset_left
+{
+  font-size: 12px;
+}
+
+.Blog .Blog_Bottom .Blog_Right .read_right
+{
+  font-size: 12px;
+}
+
+.Blog .Blog_Bottom .Blog_Left .blog_left_img{
+  width: 100%;
+}
+
+.Blog .Blog_Bottom .Blog_Left .text_left_back{
+  background-color: #042c54;
+  padding: 2rem 2rem 1.5rem 1.5rem;
+  flex-grow: 1;
+}
+
+.Blog .Blog_Bottom .Blog_Left .text_left_back .text_left2{
+  padding-bottom: 15rem;
+}
+
+.Blog .Blog_Bottom .Blog_Right{
+  flex: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 3rem;
+}
+
+.Blog .Blog_Bottom .Blog_Right .blog_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Blog .Blog_Bottom .Blog_Right .blog_item img{
+  width: 100%;
+}
+
+.Blog .Blog_Bottom .Blog_Right .blog_item .blog_item_right{
+  background-color: #042c54;
+  padding: 0.5rem 1rem 1rem 1.5rem;
+}
+
+.Blog .Blog_Bottom .Blog_Right .blog_item .blog_item_right .blog_text{
+  padding-bottom: 1rem;
+}
+
+.Last{
+  background-color: #031b34;
+  width: 100%;
+}
+
+.Last .Last_Head{
+  padding: 11rem 16rem 4rem 16rem;
+}
+
+.Last .Last_Head .Header_Last{
+  text-align: center;
+}
+
+.Last .Last_Button{
+  padding: 0 32rem 11rem 32rem;
+  /* border: 2px solid #fff; */
+}
+
+.Last .Last_End .Right_End .column .last_iteam
+{
+  font-family: "ManropeLight", sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+
+.Last .Last_Button .Last_Button1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  padding: 1.25rem;
+}
+
+.Last .Last_End{
+  display: flex;
+  width: 100%;
+  padding: 0 8.5rem 5rem 11.6rem;
+  gap: 20rem;
+}
+
+.Last .Last_End .Left_End{
+  display: flex;
+  flex-direction: column;
+  flex: 1
+}
+
+.Last .Last_End .Right_End{
+  display: flex;
+  flex: 4;
+  gap: 5rem;
+}
+
+.Last .Last_End .column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Расстояние между элементами внутри колонки */
+}
+
+.Last .Last_End .column h3 {
+  margin-bottom: 0.5rem; /* Отступ для заголовков */
+  font-weight: bold; /* Дополнительно для акцента */
+}
+
+.Last .Last_End .column h7 {
+  margin-bottom: 0.5rem; /* Отступ между текстовыми элементами */
+  line-height: 1.4; /* Расстояние между строками внутри элементов */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Медиа запросы для адаптива */
 
 @media screen and (max-width: 1024px) {
@@ -445,7 +719,7 @@ p {
   }
 
   .header {
-    padding: 2rem;
+    padding: 2rem 7rem;
   }
 
   .header .header__logo .logo__link img {
@@ -494,6 +768,7 @@ p {
     flex-direction: column;
     justify-content: center;
     column-gap: 0;
+    /* margin: 0; */
     width: 90%;
   }
 
@@ -528,6 +803,12 @@ p {
     row-gap: 0;
   }
 
+  .Blog .Head_Text {
+    font-size: 62px;
+    width: 100%;
+    padding: 0 10rem 3rem 10rem;
+}
+
   .future_here {
     column-gap: 0;
     flex-direction: column;
@@ -537,9 +818,30 @@ p {
   .future_here .future_here__left {
     row-gap: 1rem;
   }
+
+  .early_access .fon_gradient .right_gradient {
+    width: 40%;
+    display: flex;
+    padding: 4rem 1rem 4rem 11rem;
+  }
+
+  .Last .Last_Head {
+    padding: 5rem 10rem 4rem 10rem;
+  }
+
+  .Last .Last_Button {
+    padding: 0px 20rem 8rem 20rem;
+  }
+
+  .Last .Last_End {
+    display: flex;
+    width: 100%;
+    padding: 0px 2rem 5rem 2rem;
+    gap: 15rem;
+  }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 768px) {
   p {
     font-size: 14px;
     line-height: 1.5;
@@ -599,6 +901,73 @@ p {
     .container__content {
     line-height: 1.5;
   }
+
+  .future_here_new {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 3rem;
+  }
+
+  .future_here_new .left_container_future {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem 0;
+  }
+
+  .future_here_new .right_container_future {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem 1rem 2rem;
+  }
+  
+  .early_access {
+    display: flex;
+    margin-bottom: 5rem;
+  }
+
+  .early_access .fon_gradient .right_gradient {
+    width: 40%;
+    display: flex;
+    padding: 4rem 1rem 4rem 5rem;
+  }
+
+  .Blog {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .Blog .Head_Text {
+    font-size: 62px;
+    width: 100%;
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  .Blog .Blog_Bottom .Blog_Left .text_left_back .text_left2 {
+    padding-bottom: 3rem;
+  }
+
+  .Blog .Blog_Bottom{
+    flex-direction: column;
+  }
+
+  .Last .Last_Head {
+    padding: 4rem 0rem 4rem 0rem;
+  }
+
+  .Last .Last_Button {
+    padding: 0px 14rem 4rem 14rem;
+  }
+
+  .Last .Last_End {
+    display: flex;
+    width: 100%;
+    padding: 0px 2rem 5rem 2rem;
+    gap: 8rem;
+  }
 }
 
 @media screen and (max-width: 765px) {
@@ -640,5 +1009,90 @@ p {
 
   .future_here .future_here__right {
     row-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 426px){
+  .header {
+    padding: 2rem 2rem;
+  }
+
+  .future_here_new .left_container_future {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0px 0rem 0;
+  }
+
+  .future_here_new .left_container_future .img_vision{
+    width: 100%;
+  }
+
+  .Blog .Head_Text {
+    font-size: 62px;
+    width: 100%;
+    padding: 0px 0rem 2rem 0rem;
+  }
+
+  .early_access .fon_gradient {
+    width: 100%;
+    flex-direction: column;
+    background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .early_access .fon_gradient .left_gradient {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .early_access .fon_gradient .right_gradient {
+    width: 100%;
+    display: flex;
+    padding: 1rem 0rem 1rem 0rem;
+    justify-content: center;
+  }
+
+  .Blog .Blog_Bottom .Blog_Right {
+    display: flex;
+    min-width: 375px;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .Last .Last_Button {
+    padding: 0px 4rem 4rem 4rem;
+  }
+
+  .Last .Last_End {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0px 2rem 5rem 2rem;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .Last .Last_End .Right_End {
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .Last .Last_End .column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .Last .Last_End .column h7 {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    text-align: center;
   }
 }
